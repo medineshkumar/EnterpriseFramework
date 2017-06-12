@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="sample">
+    <classes>
+      <class name="admin.SystemSettings"/>
+    </classes>
+  </test> <!-- sample -->
+  <test name="sample(failed)">
+    <classes>
+      <class name="admin.SystemSettings">
+        <methods>
+          <include name="addeducationEvaluator" invocation-numbers="0 1"/>
+          <include name="addType" invocation-numbers="0 1"/>
+          <include name="flush"/>
+          <include name="addDocumentCategory"/>
+          <include name="addService" invocation-numbers="0 1"/>
+          <include name="addDocument" invocation-numbers="0"/>
+          <include name="clean"/>
+          <include name="addMasterLegalForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- admin.SystemSettings -->
+    </classes>
+  </test> <!-- sample(failed) -->
+</suite> <!-- Failed suite [Suite] -->

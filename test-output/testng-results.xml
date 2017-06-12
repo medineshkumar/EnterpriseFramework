@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22251" started-at="2017-06-01T10:37:17Z" finished-at="2017-06-01T10:37:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22251" started-at="2017-06-01T10:37:17Z" finished-at="2017-06-01T10:37:40Z">
+      <class name="admin.Organization">
+        <test-method status="PASS" signature="addCustomerProjectDetails()[pri:0, instance:admin.Organization@757942a1]" name="addCustomerProjectDetails" duration-ms="18331" started-at="2017-06-01T16:07:17Z" finished-at="2017-06-01T16:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerProjectDetails -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:admin.Organization@757942a1]" name="clean" is-config="true" duration-ms="3241" started-at="2017-06-01T16:07:36Z" finished-at="2017-06-01T16:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:admin.Organization@757942a1]" name="flushReport" is-config="true" duration-ms="631" started-at="2017-06-01T16:07:39Z" finished-at="2017-06-01T16:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- admin.Organization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
